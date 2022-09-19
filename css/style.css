@@ -27,12 +27,19 @@
     border-right: dashed black 3px;
 }
 
+.debug .download-container{
+    background-color: #00008B;
+}
+.debug .download{
+    background-color: #EE82EE;
+    border: dashed 2px black;
+}
 
 
 /*---------------
     HEADER
 --------------- */
-header{
+.sec-nav{
     padding: 10px 15%;
 }
 
@@ -41,9 +48,24 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .link{
     width: 70%;
     text-align: center;
+}
+
+.download-container{
+    display: flex;
+    padding: 50px;
+
+}
+
+.download{
+    max-width: 1400px;
+    margin: auto;
+    height: 400px;
+    width: 900px;
+    align-items: center;
 }
