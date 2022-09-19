@@ -7,3 +7,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*---------------
+    DEBUG
+--------------- */
+
+.debug header{
+    background-color: #ADD8E6;
+}
+
+.debug .nav{
+    font-size: 25px;
+    border: 2px dashed black;
+    background-color: #DAA520;
+}
+
+.debug .link{
+    border-left: dashed black 3px;
+    border-right: dashed black 3px;
+}
+
+
+
+/*---------------
+    HEADER
+--------------- */
+header{
+    padding: 10px 15%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.link{
+    width: 70%;
+    text-align: center;
+}
