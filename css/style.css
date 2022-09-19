@@ -35,6 +35,15 @@
     border: dashed 2px black;
 }
 
+.debug .col-b{
+    background-color: #1E90FF;
+    border: dashed 2px black;
+}
+
+.debug .col-s{
+    background-color: #FFC0CB;
+    border: dashed 2px black;
+}
 
 /*---------------
     HEADER
@@ -69,3 +78,33 @@
     width: 900px;
     align-items: center;
 }
+
+
+/*---------------
+    MAIN
+--------------- */
+
+.sec-main{
+    display: flex;
+    padding: 50px 16%;
+    align-items: center;
+}
+
+.col-b{
+    height: 500px;
+    width: 100%;
+}
+
+.col-s{
+    width: 800px;
+    height: 500px;
+}
+
+.sec-main:nth-child(2n){
+    background-color: #D3D3D3;
+}
+
+.sec-main.reverse{
+    flex-direction: row-reverse;
+}
+
